@@ -6,6 +6,7 @@
 
 html,
 body {
+  min-width: 320px;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -18,11 +19,12 @@ img {
 }
 
 body {
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: $ff-montserrat, $ff-arial;
   font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-night-rider;
 
-  background-color: #fff;
+  background-color: $color-white;
 }
